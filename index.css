@@ -1,0 +1,52 @@
+:root{
+    --ff-primary: 'Raleway';
+
+    --clr-dark: #0e0d25;
+    --clr-rich-blue:#232362;
+    --clr-white:#FFFF;
+
+    --fw-light:200;
+    --fw-regular:300;
+    --fw-bold:800;
+}
+
+body{
+  background-image: url("./images/bg-mobile.png");  
+  background-size: cover;
+  margin: 0;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+.fylo--container{
+    background-color: var(--clr-rich-blue);
+    padding: 2.7rem 5rem 3rem 2.2rem;
+    border-radius:6% 44% 6% 6%;
+}
+
+.fylo--logo{max-width: 130px;}
+.upload--options{display: flex; 
+    justify-content: space-between; 
+    width: 170px;}
+
+.fylo--conainer__img{
+    background-color: var(--clr-dark);
+    width: 29px;
+    height: 29px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.fylo--conainer__img img{
+    margin: auto;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
